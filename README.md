@@ -2,5 +2,4 @@
 
  guuleystaha bootcamka 
 
- mumtaas
- clasow
+
