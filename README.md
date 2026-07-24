@@ -3,3 +3,4 @@
  guuleystaha bootcamka
  1: calasow
  2" isxaaq
+ boos
