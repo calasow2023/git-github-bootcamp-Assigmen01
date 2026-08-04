@@ -11,5 +11,5 @@ jobs:
 
       - name: Great & count the files
         env:
-         STUDENT_NAME: ${ { vars.STUDENT_NAME } }
-        run: echo "Hello, ${ { vars.STUDENT_NAME } }!"
+         STUDENT_NAME: ${{ vars.STUDENT_NAME }}
+        run: echo "Hello, ${{ vars.STUDENT_NAME }}!"
