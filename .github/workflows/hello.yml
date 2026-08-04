@@ -11,5 +11,10 @@ jobs:
 
       - name: Great & count the files
         env:
-         STUDENT_NAME: ${{ vars.STUDENT_NAME }}
-        run: echo "Hello, ${{ vars.STUDENT_NAME }}!"
+         STUDENT_NAME: ${{vars.STUDENT_NAME }}
+        run: 
+           COUNT=$(find . -type f -not -path './.git/*' | wc -l)
+           echo "Hello, ${{vars.STUDENT_NAME}},  There are $COUNT files in your repository."
+         
+        
+       
